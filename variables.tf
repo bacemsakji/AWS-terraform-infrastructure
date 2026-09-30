@@ -6,7 +6,7 @@
 variable "aws_region" {
   description = "AWS region to deploy into"
   type        = string
-  default     = "eu-central-1" # Frankfurt — good if targeting Germany-based roles/clients
+  default     = "us-east-1" # AWS Academy Learner Labs
 }
 
 variable "project_name" {
